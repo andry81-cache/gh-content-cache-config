@@ -1,0 +1,91 @@
+# Tutorial to use with: https://github.com/andry81-devops/accum-content
+#
+
+content-config:
+
+  entries:
+
+    - dirs:
+
+        - dir:            badges/traffic/views
+          schedule:
+            next-update:
+              timestamp: 04:00Z
+
+          files:
+
+            - file:       all.svg
+              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=Github%20views|all&query=count&url=https://github.com/andry81-stats/contools--gh-stats/raw/master/traffic/views/latest-accum.json?raw=True&logo=github
+
+            - file:       all-14d.svg
+              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=14d&query=count&url=https://github.com/andry81-stats/contools--gh-stats/raw/master/traffic/views/latest.json?raw=True
+
+            - file:       unq.svg
+              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=Github%20views|unq&query=uniques&url=https://github.com/andry81-stats/contools--gh-stats/raw/master/traffic/views/latest-accum.json?raw=True&logo=github
+
+            - file:       unq-14d.svg
+              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=14d&query=uniques&url=https://github.com/andry81-stats/contools--gh-stats/raw/master/traffic/views/latest.json?raw=True
+
+        - dir:            badges/traffic/clones
+          schedule:
+            next-update:
+              timestamp: 04:00Z
+
+          files:
+
+            - file:       all.svg
+              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=Github%20clones|all&query=count&url=https://github.com/andry81-stats/contools--gh-stats/raw/master/traffic/clones/latest-accum.json?raw=True&logo=github
+
+            - file:       all-14d.svg
+              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=14d&query=count&url=https://github.com/andry81-stats/contools--gh-stats/raw/master/traffic/clones/latest.json?raw=True
+
+            - file:       unq.svg
+              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=Github%20clones|unq&query=uniques&url=https://github.com/andry81-stats/contools--gh-stats/raw/master/traffic/clones/latest-accum.json?raw=True&logo=github
+
+            - file:       unq-14d.svg
+              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=14d&query=uniques&url=https://github.com/andry81-stats/contools--gh-stats/raw/master/traffic/clones/latest.json?raw=True
+
+        - dir:            badges/metrics
+          schedule:
+            next-update:
+              timestamp: 08:00Z
+
+          files:
+
+            - file:       codefactor-grade.svg
+              #           https://www.codefactor.io/repository/github/andry81/contools/badge
+              query-url:  https://img.shields.io/codefactor/grade/github/andry81/contools?label=quality&logo=codefactor
+
+            - file:       codacy-grade.svg
+              query-url:  https://img.shields.io/codacy/grade/09e6de3a65614dd1b85c631ff108c8e5?label=quality&logo=codacy
+
+            - file:       lgtm-grade-python.svg
+              query-url:  https://img.shields.io/lgtm/grade/python/g/andry81/contools.svg?label=quality:%20python&logo=lgtm
+
+            - file:       lgtm-alerts.svg
+              query-url:  https://img.shields.io/lgtm/alerts/github/andry81/contools?label=alerts&logo=lgtm
+
+            - file:       codeclimate-maintainability.svg
+              query-url:  https://api.codeclimate.com/v1/badges/d7d0415db06ae2e19681/maintainability?logo=codeclimate
+
+            - file:       codeclimate-issues.svg
+              query-url:  https://img.shields.io/codeclimate/issues/andry81/contools?logo=codeclimate
+
+            - file:       codeclimate-tech-debt.svg
+              query-url:  https://img.shields.io/codeclimate/tech-debt/andry81/contools?logo=codeclimate
+
+        - dir:            badges/metrics
+          schedule:
+            next-update:
+              timestamp: 08:00Z
+
+          files:
+
+            - file:       shields-repo-size.svg
+              query-url:  https://img.shields.io/github/repo-size/andry81/contools?logo=github
+
+            - file:       shields-code-size.svg
+              query-url:  https://img.shields.io/github/languages/code-size/andry81/contools?logo=github
+
+            - file:       tokei-lines-of-code.svg
+              query-url:  https://tokei.rs/b1/github/andry81/contools?category=code
