@@ -15,13 +15,13 @@ content-config:
           files:
 
             - file:       all.svg
-              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=Github%20views|all&query=count&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/views/latest-accum.json?raw=True&logo=github
+              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=views|all&query=count&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/views/latest-accum.json?raw=True&logo=github
 
             - file:       all-14d.svg
               query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=14d&query=count&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/views/latest.json?raw=True
 
             - file:       unq.svg
-              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=Github%20views|unq&query=uniques&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/views/latest-accum.json?raw=True&logo=github
+              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=views|unq&query=uniques&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/views/latest-accum.json?raw=True&logo=github
 
             - file:       unq-14d.svg
               query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=14d&query=uniques&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/views/latest.json?raw=True
@@ -34,13 +34,13 @@ content-config:
           files:
 
             - file:       all.svg
-              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=Github%20clones|all&query=count&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/clones/latest-accum.json?raw=True&logo=github
+              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=clones|all&query=count&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/clones/latest-accum.json?raw=True&logo=github
 
             - file:       all-14d.svg
               query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=14d&query=count&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/clones/latest.json?raw=True
 
             - file:       unq.svg
-              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=Github%20clones|unq&query=uniques&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/clones/latest-accum.json?raw=True&logo=github
+              query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=clones|unq&query=uniques&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/clones/latest-accum.json?raw=True&logo=github
 
             - file:       unq-14d.svg
               query-url:  https://img.shields.io/badge/dynamic/json?color=success&label=14d&query=uniques&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/clones/latest.json?raw=True
