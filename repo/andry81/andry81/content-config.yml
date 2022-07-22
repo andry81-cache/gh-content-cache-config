@@ -55,6 +55,9 @@ content-config:
             - file:       streak-stats-herokuapp.svg
               query-url:  https://github-readme-streak-stats.herokuapp.com/?user=andry81&theme=onedark&hide_border=true
 
+            - file:       profile-summary-card-vercel.svg
+              query-url:  https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=andry81&theme=monokai
+
             - file:       metrics-lecoq.svg
               query-url:  https://metrics.lecoq.io/andry81?template=classic&config.timezone=Europe%2FMoscow
 
