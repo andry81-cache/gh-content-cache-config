@@ -56,7 +56,7 @@ content-config:
               query-url:  https://github-readme-streak-stats.herokuapp.com/?user=andry81&theme=onedark&hide_border=true
 
             - file:       metrics-lecoq.svg
-              query-url:  https://metrics.lecoq.io/andry81?template=classic&languages=1&lines=1&languages.limit=12&languages.threshold=0%25&languages.colors=github&languages.sections=most-used&languages.details=bytes-size%2C%20percentage&languages.indepth=true&languages.analysis.timeout=30&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&config.timezone=Europe%2FMoscow
+              query-url:  https://metrics.lecoq.io/andry81?template=classic&config.timezone=Europe%2FMoscow
 
             - file:       readme-stats-vercel.svg
               query-url:  https://github-readme-stats.vercel.app/api?username=andry81&theme=dark&count_private=true&show_icons=true&include_all_commits=true&hide_border=true&line_height=21&hide_title=true
