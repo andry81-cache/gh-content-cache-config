@@ -102,5 +102,20 @@ content-config:
             - file:       tokei-lines-of-code.svg
               query-url:  https://tokei.rs/b1/github/andry81-3dparty/tacklebar--external_tools?category=code
 
+              # Global input variables:
+              #   GH_WORKFLOW_ROOT,
+              #   IS_STORED_FILE_EXIST, STORED_FILE, STORED_FILE_SIZE, STORED_FILE_HASH,
+              #   DOWNLOADED_FILE, DOWNLOADED_FILE_SIZE, DOWNLOADED_FILE_HASH
+              download-validate:
+                run: |
+                  if IFS=$'\n' read -r value <<< "$(xq -c -r '.svg.g[1].text[3]."#text"' "$DOWNLOADED_FILE")"; then
+                    value="${value//[ $'\t'a-zA-Z]/}"
+                    value_int="${value%.*}"
+                    value_fract="${value#*.}"
+                    [[ "$value_fract" == "$value" ]] && value_fract=0
+                    (( value_int || value_fract )) && exit 0
+                  fi
+                  exit 255
+
             #- file:       tokei-lines.svg
             #  query-url:  https://img.shields.io/tokei/lines/github/andry81-3dparty/tacklebar--external_tools?logo=tokei
