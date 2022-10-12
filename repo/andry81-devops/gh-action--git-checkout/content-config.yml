@@ -92,7 +92,7 @@ content-config:
               download-validate:
                 shell: bash
                 # Input variables:
-                #   GH_WORKFLOW_ROOT,
+                #   GH_WORKFLOW_ROOT, GH_WORKFLOW_FLAGS,
                 #   IS_STORED_FILE_EXIST, STORED_FILE, STORED_FILE_SIZE, STORED_FILE_HASH,
                 #   DOWNLOADED_FILE, DOWNLOADED_FILE_SIZE, DOWNLOADED_FILE_HASH
                 #

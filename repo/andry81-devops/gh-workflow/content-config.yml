@@ -24,6 +24,12 @@ content-config:
             next-update:
               timestamp: 04:00Z
 
+          tags:
+            - svg--g--text
+
+          env:
+            XPATH_MATCH_TOKEN: svg/g[1]/text[3]
+
           files:
 
             - file:       all.svg
@@ -42,6 +48,12 @@ content-config:
           schedule:
             next-update:
               timestamp: 04:00Z
+
+          tags:
+            - svg--g--text
+
+          env:
+            XPATH_MATCH_TOKEN: svg/g[1]/text[3]
 
           files:
 
@@ -78,6 +90,12 @@ content-config:
             next-update:
               timestamp: 08:00Z
 
+          tags:
+            - svg--g--text
+
+          env:
+            XPATH_MATCH_TOKEN: svg/g[1]/text[3]
+
           files:
 
             - file:       shields-repo-size.svg
@@ -92,7 +110,7 @@ content-config:
               download-validate:
                 shell: bash
                 # Input variables:
-                #   GH_WORKFLOW_ROOT,
+                #   GH_WORKFLOW_ROOT, GH_WORKFLOW_FLAGS,
                 #   IS_STORED_FILE_EXIST, STORED_FILE, STORED_FILE_SIZE, STORED_FILE_HASH,
                 #   DOWNLOADED_FILE, DOWNLOADED_FILE_SIZE, DOWNLOADED_FILE_HASH
                 #
