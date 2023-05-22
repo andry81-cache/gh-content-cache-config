@@ -72,12 +72,6 @@ content-config:
               #           https://app.codacy.com/project/badge/Grade/ed3843f61b4a4a4bb0731d7c1479840f
               query-url:  https://img.shields.io/codacy/grade/ed3843f61b4a4a4bb0731d7c1479840f?label=quality&logo=codacy
 
-            - file:       lgtm-grade-python.svg
-              query-url:  https://img.shields.io/lgtm/grade/python/github/andry81/tacklebar.svg?label=quality:%20python&logo=lgtm
-
-            - file:       lgtm-alerts.svg
-              query-url:  https://img.shields.io/lgtm/alerts/github/andry81/tacklebar?label=alerts&logo=lgtm
-
             - file:       codeclimate-maintainability.svg
               query-url:  https://api.codeclimate.com/v1/badges/0fe59660ac1b424e7b9e/maintainability?logo=codeclimate
 
