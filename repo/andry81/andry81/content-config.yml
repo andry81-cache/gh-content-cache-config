@@ -67,5 +67,5 @@ content-config:
             - file:       readme-stats-vercel--top-langs.svg
               query-url:  https://github-readme-stats.vercel.app/api/top-langs/?username=andry81&layout=compact&theme=dark&langs_count=10&count_private=true&include_all_commits=true&hide_border=true&line_height=21&hide_title=true
 
-            - file:       activity-graph-herokuapp.svg
-              query-url:  https://activity-graph.herokuapp.com/graph?username=andry81&theme=one-dark&hide_border=true
+            - file:       activity-graph-vercelapp.svg
+              query-url:  https://github-readme-activity-graph.vercel.app/graph?username=andry81&theme=one-dark&hide_border=true
