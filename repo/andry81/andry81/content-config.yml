@@ -58,9 +58,6 @@ content-config:
             - file:       profile-summary-card-vercel.svg
               query-url:  https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=andry81&theme=monokai
 
-            - file:       metrics-lecoq.svg
-              query-url:  https://metrics.lecoq.io/andry81?template=classic&config.timezone=Europe%2FMoscow
-
             - file:       readme-stats-vercel.svg
               query-url:  https://github-readme-stats.vercel.app/api?username=andry81&theme=dark&count_private=true&show_icons=true&include_all_commits=true&hide_border=true&line_height=21&hide_title=true
 
