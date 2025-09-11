@@ -78,15 +78,6 @@ content-config:
             - file:       lgtm-alerts.svg
               query-url:  https://img.shields.io/lgtm/alerts/github/andry81/bittools?label=alerts&logo=lgtm
 
-            - file:       codeclimate-maintainability.svg
-              query-url:  https://api.codeclimate.com/v1/badges/fcc4dde6b41737f524d3/maintainability?logo=codeclimate
-
-            - file:       codeclimate-issues.svg
-              query-url:  https://img.shields.io/codeclimate/issues/andry81/bittools?logo=codeclimate
-
-            - file:       codeclimate-tech-debt.svg
-              query-url:  https://img.shields.io/codeclimate/tech-debt/andry81/bittools?logo=codeclimate
-
         - dir:            badges/metrics
           schedule:
             next-update:

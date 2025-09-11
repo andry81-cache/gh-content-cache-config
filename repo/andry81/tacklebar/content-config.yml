@@ -72,15 +72,6 @@ content-config:
               #           https://app.codacy.com/project/badge/Grade/ed3843f61b4a4a4bb0731d7c1479840f
               query-url:  https://img.shields.io/codacy/grade/ed3843f61b4a4a4bb0731d7c1479840f?label=quality&logo=codacy
 
-            - file:       codeclimate-maintainability.svg
-              query-url:  https://api.codeclimate.com/v1/badges/0fe59660ac1b424e7b9e/maintainability?logo=codeclimate
-
-            - file:       codeclimate-issues.svg
-              query-url:  https://img.shields.io/codeclimate/issues/andry81/tacklebar?logo=codeclimate
-
-            - file:       codeclimate-tech-debt.svg
-              query-url:  https://img.shields.io/codeclimate/tech-debt/andry81/tacklebar?logo=codeclimate
-
         - dir:            badges/metrics
           schedule:
             next-update:
